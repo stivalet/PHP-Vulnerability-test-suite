@@ -1,0 +1,104 @@
+<container>
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/safe/CWE_209__error_reporting(0)__current_dir_location-fopen.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/safe/CWE_209__error_reporting(0)__current_dir_location-fopen_with_condition.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/safe/CWE_209__error_reporting(0)__error_message-try_catch.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/unsafe/CWE_209__error_reporting(0)__config_location-try_catch.php" language="PHP"> 
+			<flaw line="47" name ="SM"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/unsafe/CWE_209__no_sanitizing__current_dir_location-fopen.php" language="PHP"> 
+			<flaw line="47" name ="SM"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/safe/CWE_209__no_sanitizing__current_dir_location-fopen_with_condition.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/safe/CWE_209__no_sanitizing__error_message-try_catch.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Error_message</input>
+		</meta-data> 
+ 
+		<file path="CWE_209/unsafe/CWE_209__no_sanitizing__config_location-try_catch.php" language="PHP"> 
+			<flaw line="47" name ="SM"/> 
+		</file> 
+
+	</testcase> 
+
+
+</container>

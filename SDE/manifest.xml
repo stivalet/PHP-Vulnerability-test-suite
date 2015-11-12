@@ -1,0 +1,160 @@
+<container>
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_311/safe/CWE_311__sha256_with_crypt_function__store_in_cookie.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_311/safe/CWE_311__sha256_with_crypt_function__store_in_database.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_311/unsafe/CWE_311__no_encryption__store_in_cookie.php" language="PHP"> 
+			<flaw line="48" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_311/unsafe/CWE_311__no_encryption__store_in_database.php" language="PHP"> 
+			<flaw line="48" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/unsafe/CWE_327__no_sanitizing__str_rot13.php" language="PHP"> 
+			<flaw line="47" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/unsafe/CWE_327__no_sanitizing__md5.php" language="PHP"> 
+			<flaw line="47" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/unsafe/CWE_327__no_sanitizing__sha1.php" language="PHP"> 
+			<flaw line="47" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/unsafe/CWE_327__no_sanitizing__des_crypt_function.php" language="PHP"> 
+			<flaw line="47" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/unsafe/CWE_327__no_sanitizing__md5_crypt_function.php" language="PHP"> 
+			<flaw line="47" name ="SDE"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/safe/CWE_327__no_sanitizing__sha256_crypt_function.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/safe/CWE_327__no_sanitizing__sha512_crypt_function.php" language="PHP"/> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>12/11/15</date> 
+			<input>Sensitive_data</input>
+		</meta-data> 
+ 
+		<file path="CWE_327/safe/CWE_327__no_sanitizing__password_hash.php" language="PHP"/> 
+
+	</testcase> 
+
+
+</container>
